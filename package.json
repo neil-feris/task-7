@@ -1,0 +1,26 @@
+{
+  "name": "mongodbfullstack",
+  "version": "1.0.0",
+  "description": "Full Stack Mern App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Neil Feris",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "mongodb": "4.11.0",
+    "mongoose": "6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
